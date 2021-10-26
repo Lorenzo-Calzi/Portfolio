@@ -20,8 +20,7 @@
 }
 
 * #blur.active {
-  -webkit-filter: blur(3px);
-          filter: blur(3px);
+  /* filter: blur(3px); */
   pointer-events: none;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -428,6 +427,49 @@ header .container #header_site .jumbotron .jumbo_right .button.type3:hover:after
           justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+#main_site #otherProjects .container #primo_video {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+  background-color: white;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  z-index: 3;
+}
+
+#main_site #otherProjects .container #primo_video video {
+  height: 500px;
+  width: 700px;
+  border-radius: 5px;
+}
+
+#main_site #otherProjects .container #primo_video a {
+  background-color: #5353db;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  display: block;
+  padding: 5px 0;
+  margin-top: 10px;
+}
+
+#main_site #otherProjects .container #primo_video.active {
+  top: 50%;
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  z-index: 3;
 }
 
 #main_site #otherProjects .container .card {

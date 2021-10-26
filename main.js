@@ -80,3 +80,41 @@ function toggle() {
     var popup = document.getElementById('popup');
     popup.classList.toggle('active');
 }
+
+
+/* TOGGLE videos */
+var first = document.getElementById('first');
+first.onclick = function () {
+    var blur = document.getElementById('blur');
+    blur.classList.toggle('active');
+
+    var primo_video = document.getElementById('primo_video');
+    primo_video.classList.toggle('active');
+}
+
+/* var second = document.getElementById('second')
+second.onclick = function () {
+    var blur = document.getElementById('blur');
+    blur.classList.toggle('active');
+
+    var secondo_video = document.getElementById('secondo_video');
+    secondo_video.classList.toggle('active');
+}
+
+var third = document.getElementById('third')
+third.onclick = function () {
+    var blur = document.getElementById('blur');
+    blur.classList.toggle('active');
+
+    var terzo_video = document.getElementById('terzo_video');
+    terzo_video.classList.toggle('active');
+}
+
+var fourth = document.getElementById('fourth')
+fourth.onclick = function () {
+    var blur = document.getElementById('blur');
+    blur.classList.toggle('active');
+
+    var quarto_video = document.getElementById('quarto_video');
+    quarto_video.classList.toggle('active');
+} */
