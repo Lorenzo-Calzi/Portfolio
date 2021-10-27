@@ -95,8 +95,10 @@
 
 * #primo_video video, * #secondo_video video,
 * #terzo_video video, * #quarto_video video {
-  height: 650px;
-  width: 1200px;
+  /* height: 650px;
+            width: 1200px; */
+  height: 350px;
+  width: 700px;
   border-radius: 5px;
 }
 

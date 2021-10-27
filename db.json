@@ -1,0 +1,84 @@
+{
+    "cards": [
+        {
+            "id": 0,
+            "link": "https://lorenzo-calzi.github.io/html-css-spotifyweb/",
+            "image": "./img/spotify.jpg",
+            "name": "Spotify Web",
+            "first_icon": "fab fa-html5",
+            "second_icon": "fab fa-css3-alt"
+        },
+        {
+            "id": 1,
+            "link": "https://lorenzo-calzi.github.io/vue-boolflix/Milestone%205/",
+            "image": "./img/boolflix.jpg",
+            "name": "Boolflix",
+            "first_icon": "fab fa-html5",
+            "second_icon": "fab fa-vuejs"
+        },
+        {
+            "id": 2,
+            "link": "https://lorenzo-calzi.github.io/vue-boolzapp/Milestone_5/",
+            "image": "./img/boolzapp.jpg",
+            "name": "Boolzapp",
+            "first_icon": "fab fa-html5",
+            "second_icon": "fab fa-vuejs"
+        },
+        {
+            "id": 3,
+            "link": "https://lorenzo-calzi.github.io/htmlcss-hubspot/",
+            "image": "./img/hubspot.jpg",
+            "name": "Hubspot",
+            "first_icon": "fab fa-html5",
+            "second_icon": "fab fa-css3-alt"
+        },
+        {
+            "id": 4,
+            "link": "https://lorenzo-calzi.github.io/html-css-digitalocean/",
+            "image": "./img/digital.jpg",
+            "name": "DigitalOcean",
+            "first_icon": "fab fa-html5",
+            "second_icon": "fab fa-css3-alt"
+        },
+        {
+            "id": 5,
+            "link": "https://lorenzo-calzi.github.io/html-css-bootstrap-freelancer/",
+            "image": "./img/freelance.jpg",
+            "name": "Freelance",
+            "first_icon": "fab fa-html5",
+            "second_icon": "fab fa-css3-alt"
+        },
+        {
+            "id": 6,
+            "link": "https://lorenzo-calzi.github.io/htmlcss-fluentify/",
+            "image": "./img/fluentify.jpg",
+            "name": "Fluentify",
+            "first_icon": "fab fa-html5",
+            "second_icon": "fab fa-css3-alt"
+        },
+        {
+            "id": 7,
+            "link": "https://lorenzo-calzi.github.io/BONUS/index",
+            "image": "./img/toDoList.jpg",
+            "name": "To do List",
+            "first_icon": "fab fa-html5",
+            "second_icon": "fab fa-css3-alt"
+        },
+        {
+            "id": 7,
+            "link": "https://lorenzo-calzi.github.io/js-burger/",
+            "image": "./img/burger.jpg",
+            "name": "Burger",
+            "first_icon": "fab fa-html5",
+            "second_icon": "fab fa-css3-alt"
+        },
+        {
+            "id": 7,
+            "link": "https://lorenzo-calzi.github.io/vue-slider/",
+            "image": "./img/slider.jpg",
+            "name": "Slider",
+            "first_icon": "fab fa-html5",
+            "second_icon": "fab fa-vuejs"
+        }
+    ]
+}
