@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    scroll-behavior: smooth;
+
+    .noScroll{
+        margin: 0;
+        height: 100%;
+        overflow: hidden
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
+    #blur{
+        position: relative;
+        transition: 0.5s;
+    }
+    #blur.active{
+        filter: blur(3px);
+        pointer-events: none;
+        user-select: none;
+    }
+
+    #popup{
+        position: fixed;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 5px 30px rgba(0,0,0, .30);
+        background-color: rgb(255, 255, 255);
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.5s;
+
+        embed{
+            width: 500px;
+            height: 600px;
+        }
+        a{
+            background-color: rgb(83, 83, 219);
+            border-radius: 5px;
+            color: white;
+            text-align: center;
+            display: block;
+            padding: 5px 0;
+            margin-top: 10px;
+        }
+    }
+    #popup.active{
+        top: 50%;
+        visibility: visible;
+        opacity: 1;
+        transition: 0.5s;
+    }
+
+    #primo_video, #secondo_video,
+    #terzo_video, #quarto_video{
+        position: fixed;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 5px 30px rgba(0,0,0, .30);
+        background-color: rgb(255, 255, 255);
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.5s;
+        z-index: 3;
+
+        video{
+            height: 650px;
+            width: 1200px;
+            border-radius: 5px;
+        }
+        a{
+            background-color: rgb(83, 83, 219);
+            border-radius: 5px;
+            color: white;
+            text-align: center;
+            display: block;
+            padding: 5px 0;
+            margin-top: 10px;
+        }
+    }
+    #primo_video.active, #secondo_video.active,
+    #terzo_video.active, #quarto_video.active{
+        top: 50%;
+        visibility: visible;
+        opacity: 1;
+        transition: 0.5s;
+        z-index: 3;
+    }
+}

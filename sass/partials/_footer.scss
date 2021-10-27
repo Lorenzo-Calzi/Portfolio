@@ -1,0 +1,83 @@
+#footer_site{
+    height: 100vh;
+    background-color: rgb(83, 83, 219);
+
+    .contacts{
+        padding: 30px 0;
+        color: white;
+        text-align: center;
+    
+        h1{
+            font-size: 55px;
+            padding: 50px 0;
+            margin-bottom: 50px;
+        }
+        .container{
+            max-width: 1170px;
+            margin: auto;
+            display: flex;
+    
+            .contact_left{
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+    
+                img{
+                    height: 240px;
+                    width: 240px;
+                    border-radius: 50%;
+                    margin-bottom: 30px;
+                }
+    
+                a{
+                    text-decoration: none;
+    
+                    i{
+                        font-size: 32px;
+                        padding: 10px;
+                        color: white;
+                        transition: 0.3s;
+    
+                        &:hover{
+                            transform: scale(1.3);
+                        }
+                    }
+                }
+    
+            }
+            .contact_right{
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+    
+                img{
+                    cursor: pointer;
+                    border-radius: 3px;
+                    width: 220px;
+                    height: 320px;
+                }
+                span{
+                    color: white;
+                    cursor: pointer;
+                    border-bottom: 1px solid white;
+                    padding: 2px 5px;
+                    margin-top: 10px;
+                    font-size: 15px;
+                }
+            }
+        }
+        h6{
+            margin: 70px 0 20px 0;
+            font-size: 16px;
+            font-weight: 500;
+    
+            a{
+                color: rgb(0, 202, 50);
+                font-size: 16px;
+            }
+        }
+    }
+}
