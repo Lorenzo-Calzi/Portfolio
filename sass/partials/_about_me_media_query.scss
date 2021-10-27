@@ -1,0 +1,102 @@
+@media screen and (max-width:767.5px){
+    #main_site{
+        #about_me{ 
+            h1{
+                font-size: 55px;
+                padding: 30px 0 10px 0;
+            }
+            .container{
+                flex-direction: column;
+                padding: 30px;
+        
+                .about_left{
+                    width: 90%;
+                    text-align: center;
+                    margin-bottom: 20px;
+        
+                    p{
+                        font-size: 17px;
+                        line-height: 35px;
+                    }
+                }
+                .about_right{
+                    width: 85%;
+        
+                    i{
+                        font-size: 50px;
+                        padding: 25px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width:768px) 
+and (max-width: 991px){
+    #main_site{
+        #about_me{ 
+            h1{
+                font-size: 55px;
+                padding: 30px 0 10px 0;
+            }
+            .container{
+                flex-direction: column;
+                padding: 30px;
+        
+                .about_left{
+                    width: 90%;
+                    text-align: center;
+                    margin-bottom: 20px;
+        
+                    p{
+                        font-size: 17px;
+                        line-height: 35px;
+                    }
+                }
+                .about_right{
+                    width: 85%;
+        
+                    i{
+                        font-size: 50px;
+                        padding: 25px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width:992px){
+    #main_site{
+        #about_me{ 
+            h1{
+                font-size: 55px;
+                padding: 30px 0 10px 0;
+            }
+            .container{
+                padding: 30px;
+        
+                .about_left{
+                    width: 90%;
+                    margin-bottom: 20px;
+        
+                    p{
+                        font-size: 18px;
+                        line-height: 35px;
+                    }
+                }
+                .about_right{
+                    width: 85%;
+        
+                    i{
+                        font-size: 50px;
+                        padding: 25px;
+                    }
+                }
+            }
+        }
+    }
+}
