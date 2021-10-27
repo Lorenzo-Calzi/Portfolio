@@ -79,26 +79,34 @@ function toggle() {
 
     var popup = document.getElementById('popup');
     popup.classList.toggle('active');
+
+    var body = document.body;
+    body.classList.toggle("noScroll");
 }
 
 
 /* TOGGLE videos */
+var body = document.body;
 var first = document.getElementById('first');
-first.onclick = function () {
+first.onclick = function() {
     var blur = document.getElementById('blur');
     blur.classList.toggle('active');
 
     var primo_video = document.getElementById('primo_video');
     primo_video.classList.toggle('active');
+
+    body.classList.toggle("noScroll");
 }
 
-/* var second = document.getElementById('second')
+var second = document.getElementById('second')
 second.onclick = function () {
     var blur = document.getElementById('blur');
     blur.classList.toggle('active');
 
     var secondo_video = document.getElementById('secondo_video');
     secondo_video.classList.toggle('active');
+
+    body.classList.toggle("noScroll");
 }
 
 var third = document.getElementById('third')
@@ -108,6 +116,8 @@ third.onclick = function () {
 
     var terzo_video = document.getElementById('terzo_video');
     terzo_video.classList.toggle('active');
+
+    body.classList.toggle("noScroll");
 }
 
 var fourth = document.getElementById('fourth')
@@ -117,4 +127,6 @@ fourth.onclick = function () {
 
     var quarto_video = document.getElementById('quarto_video');
     quarto_video.classList.toggle('active');
-} */
+
+    body.classList.toggle("noScroll");
+}

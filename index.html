@@ -295,68 +295,80 @@
     
                         <div class="container">
                             <div class="card">
-                                <div>
-                                    <img src="./img/deliveboo.jpg" alt="" width="330">
+                                <img src="./img/deliveboo.jpg" alt="" width="330">
+
+                                <div class="card_desc">
                                     <h5>
                                         Deliveboo ~ 
                                         <i class="fab fa-laravel"></i>
                                         <i class="fab fa-sass"></i>
                                     </h5>
-                                    <span id="first" onclick="toggle()">GUARDA</span>
+
+                                    <span class="cta" id="first">
+                                        <span>GUARDA</span>
+                                        <svg width="13px" height="10px" viewBox="0 0 13 10">
+                                            <path d="M1,5 L11,5"></path>
+                                            <polyline points="8 1 12 5 8 9"></polyline>
+                                        </svg>
+                                    </span> 
                                 </div>
                             </div>
-
-                            <div id="primo_video"> 
-
-                                <video controls>
-                                    <source src="./video/boolpress.mp4" type="video/mp4">
-                                </video>
-                        
-                                <a href="" onclick="toggle()">Primo</a>
-                            </div>
-
-                            <!-- <div class="card">
-                                <a href="./video/deliveboo.mp4" target="_blank">
-                                    <img src="./img/deliveboo.jpg" alt="" width="330">
-                                    <h5>
-                                        Deliveboo ~ 
-                                        <i class="fab fa-laravel"></i>
-                                        <i class="fab fa-sass"></i>
-                                    </h5>
-                                </a>
-                            </div> -->
     
                             <div class="card">
-                                <a href="./video/boolpress.mp4" target="_blank">
-                                    <img src="./img/linkedin.jpg" alt="" width="330">
+                                <img src="./img/linkedin.jpg" alt="" width="330">
+                                <div class="card_desc">
                                     <h5>
                                         Linkedin ~ 
                                         <i class="fab fa-laravel"></i>
                                         <i class="fab fa-sass"></i>
                                     </h5>
-                                </a>
+                                    
+                                    <span class="cta" id="second">
+                                        <span>GUARDA</span>
+                                        <svg width="13px" height="10px" viewBox="0 0 13 10">
+                                            <path d="M1,5 L11,5"></path>
+                                            <polyline points="8 1 12 5 8 9"></polyline>
+                                        </svg>
+                                    </span> 
+                                </div>
                             </div>
     
                             <div class="card">
-                                <a href="./video/calculator.mp4" target="_blank">
-                                    <img src="./img/calculator.jpg" alt="" width="330">
+                                <img src="./img/calculator.jpg" alt="" width="330">
+                                <div class="card_desc">
                                     <h5>
                                         Calculator ~ 
                                         <i class="fab fa-react"></i>
                                         <i class="fab fa-sass"></i>
                                     </h5>
-                                </a> 
+                                    
+                                    <span class="cta" id="third">
+                                        <span>GUARDA</span>
+                                        <svg width="13px" height="10px" viewBox="0 0 13 10">
+                                            <path d="M1,5 L11,5"></path>
+                                            <polyline points="8 1 12 5 8 9"></polyline>
+                                        </svg>
+                                    </span> 
+                                </div>
                             </div>
     
                             <div class="card">
-                                <a href="./video/toDoList.mp4" target="_blank">
-                                    <img src="./img/toDoListReact.jpg" alt="" width="330">
+                                <img src="./img/toDoListReact.jpg" alt="" width="330">
+                                <div class="card_desc">
                                     <h5>
                                         To Do List ~ 
                                         <i class="fab fa-react"></i>
                                         <i class="fab fa-sass"></i>
                                     </h5>
-                                </a>
+
+                                    <span class="cta" id="fourth">
+                                        <span>GUARDA</span>
+                                        <svg width="13px" height="10px" viewBox="0 0 13 10">
+                                            <path d="M1,5 L11,5"></path>
+                                            <polyline points="8 1 12 5 8 9"></polyline>
+                                        </svg>
+                                    </span> 
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -406,6 +418,35 @@
         <div id="popup">
             <embed src="./document/cv_lorenzo_calzi.pdf"/>
             <a href="#footer_site" onclick="toggle()">CHIUDI</a>
+        </div>
+
+        <div id="primo_video"> 
+            <video controls>
+                <source src="./video/deliveboo.mp4" type="video/mp4">
+            </video>
+            <a href="">CHIUDI</a>
+        </div>
+
+        <div id="secondo_video">  
+            <video controls>
+                <source src="./video/boolpress.mp4" type="video/mp4">
+            </video>
+            <a href="">CHIUDI</a>
+        </div> 
+
+        <div id="terzo_video">  
+            <video controls>
+                <source src="./video/calculator.mp4" type="video/mp4">
+            </video>
+            <a href="">CHIUDI</a>
+        </div>
+
+
+        <div id="quarto_video">  
+            <video controls>
+                <source src="./video/toDoList.mp4" type="video/mp4">
+            </video>
+            <a href="">CHIUDI</a>
         </div>
 
         <script src="./main.js"></script>

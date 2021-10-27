@@ -6,6 +6,12 @@
     font-family: 'Work Sans', sans-serif;
     scroll-behavior: smooth;
 
+    .noScroll{
+        margin: 0;
+        height: 100%;
+        overflow: hidden
+    }
+
     a{
         text-decoration: none;
         color: white;
@@ -16,7 +22,7 @@
         transition: 0.5s;
     }
     #blur.active{
-        /* filter: blur(3px); */
+        filter: blur(3px);
         pointer-events: none;
         user-select: none;
     }
@@ -48,12 +54,50 @@
             margin-top: 10px;
         }
     }
-    #popup.active
-    {
+    #popup.active{
         top: 50%;
         visibility: visible;
         opacity: 1;
         transition: 0.5s;
+    }
+
+    #primo_video, #secondo_video,
+    #terzo_video, #quarto_video{
+        position: fixed;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 5px 30px rgba(0,0,0, .30);
+        background-color: rgb(255, 255, 255);
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.5s;
+        z-index: 3;
+
+        video{
+            height: 650px;
+            width: 1200px;
+            border-radius: 5px;
+        }
+        a{
+            background-color: rgb(83, 83, 219);
+            border-radius: 5px;
+            color: white;
+            text-align: center;
+            display: block;
+            padding: 5px 0;
+            margin-top: 10px;
+        }
+    }
+    #primo_video.active, #secondo_video.active,
+    #terzo_video.active, #quarto_video.active{
+        top: 50%;
+        visibility: visible;
+        opacity: 1;
+        transition: 0.5s;
+        z-index: 3;
     }
 }
 
@@ -198,6 +242,7 @@ header{
     color: rgb(83, 83, 219);
 
     #about_me{
+        /* height: 100vh; */
         border-bottom: 1px solid rgb(83, 83, 219);
         padding: 20px 0 50px 0;
         
@@ -362,43 +407,6 @@ header{
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
-
-            #primo_video{
-                position: fixed;
-                top: 40%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                padding: 20px;
-                border-radius: 5px;
-                box-shadow: 0 5px 30px rgba(0,0,0, .30);
-                background-color: rgb(255, 255, 255);
-                visibility: hidden;
-                opacity: 0;
-                transition: 0.5s;
-                z-index: 3;
-
-                video{
-                    height: 500px;
-                    width: 700px;
-                    border-radius: 5px;
-                }
-                a{
-                    background-color: rgb(83, 83, 219);
-                    border-radius: 5px;
-                    color: white;
-                    text-align: center;
-                    display: block;
-                    padding: 5px 0;
-                    margin-top: 10px;
-                }
-            }
-            #primo_video.active{
-                top: 50%;
-                visibility: visible;
-                opacity: 1;
-                transition: 0.5s;
-                z-index: 3;
-            }
     
             .card{
                 width: 350px;
@@ -409,26 +417,77 @@ header{
                 border-radius: 10px;
                 text-align: center;
                 box-shadow: rgba(1, 160, 62, 0.4) -5px 5px, rgba(9, 143, 76, 0.3) -10px 10px, rgba(15, 165, 132, 0.2) -15px 15px, rgba(12, 119, 60, 0.1) -20px 20px, rgba(13, 126, 82, 0.05) -25px 25px;
+                cursor: pointer;
     
                 img{
                     border-radius: 5px;
                     height: 200px;
                     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
                 }
-                h5{
-                    font-weight: 500;
-                    color: white;
-                    margin: 15px 0 20px 0;
+                .card_desc{
+                    display: flex;
+                    padding-top: 10px;
+
+                    span{
+                        font-weight: 500;
+                        color: white;
+                        margin: 10px 0 0 0;
+                        cursor: pointer;
+                    }
+                    .cta{
+                        position: relative;
+                        margin: auto;
+                        padding: 1px 10px;
+                        transition: all .2s ease;
+        
+                        &:before{
+                            content: "";
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            display: block;
+                            border-radius: 28px;
+                            background: rgba(rgb(111, 233, 117),.5);
+                            width: 56px;
+                            height: 25px;
+                            transition: all .3s ease;
+                        }
+                        span{
+                            position: relative;
+                            font-size: 16px;
+                            line-height: 18px;
+                            font-weight: 900;
+                            letter-spacing: .25em;
+                            text-transform: uppercase;
+                            vertical-align: middle;
+                        }
+                        svg{
+                            position: relative;
+                            top: 0;
+                            margin-left: 5px;
+                            padding-top: 2px;
+                            fill: none;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke: rgb(255, 255, 255);
+                            stroke-width: 2;
+                            transform: translateX(-5px);
+                            transition: all .3s ease;
+                        }
+                        &:hover{
+                            &:before{
+                                width: 100%;
+                                background: rgba(112, 167, 111, 0.452);
+                            }
+                            svg{
+                                transform: translateX(0);
+                            }
+                        }
+                        &:active{
+                            transform: scale(.96);
+                        }
+                    }
                 }
-                .button{
-                    padding: 5px 10px;
-                    background-color: white;
-                    color: black;
-                    border-radius: 3px;
-                    border: 2px solid black;
-                    font-size: 15px;
-                }
-    
             }
         }
     }   
