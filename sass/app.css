@@ -776,15 +776,15 @@ header .container #header_site .jumbotron .jumbo_right .button.type3:hover:after
     margin-bottom: 20px;
   }
   #main_site #about_me .container .about_left p {
-    font-size: 17px;
+    font-size: 16px;
     line-height: 35px;
   }
   #main_site #about_me .container .about_right {
     width: 85%;
   }
   #main_site #about_me .container .about_right i {
-    font-size: 50px;
-    padding: 25px;
+    font-size: 30px;
+    padding: 20px;
   }
 }
 
@@ -1107,12 +1107,12 @@ header .container #header_site .jumbotron .jumbo_right .button.type3:hover:after
     padding: 50px 0;
   }
   #main_site #projects .container .card {
-    width: 50vw;
+    width: 60vw;
     padding: 8px;
   }
   #main_site #projects .container .card img {
-    height: 22vh;
-    width: 47vw;
+    height: 18vh;
+    width: 57vw;
   }
   #main_site #projects .container .card .card_desc h5 {
     display: none;
