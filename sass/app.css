@@ -443,8 +443,6 @@ header .container #header_site .jumbotron .jumbo_right .button.type3:hover:after
 }
 
 #main_site #otherProjects .container .card {
-  width: 350px;
-  height: 260px;
   padding: 8px;
   margin: 25px;
   background-color: #5353db;
@@ -1116,7 +1114,7 @@ header .container #header_site .jumbotron .jumbo_right .button.type3:hover:after
     height: 22vh;
     width: 47vw;
   }
-  #main_site #projects .container .card .card_desc {
+  #main_site #projects .container .card .card_desc h5 {
     display: none;
   }
 }
@@ -1148,6 +1146,15 @@ header .container #header_site .jumbotron .jumbo_right .button.type3:hover:after
   #main_site #projects .container .card img {
     height: 200px;
     width: 330px;
+  }
+}
+
+@media screen and (max-width: 767.5px) {
+  #main_site #otherProjects .container .card .card_desc {
+    display: block;
+  }
+  #main_site #otherProjects .container .card .card_desc h5 {
+    display: none;
   }
 }
 /*# sourceMappingURL=app.css.map */
