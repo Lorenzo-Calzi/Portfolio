@@ -10,6 +10,7 @@
             }
             .container{
                 .contact_left{
+                    margin-bottom: 50px;
                     img{
                         height: 200px;
                         width: 200px;
@@ -63,6 +64,8 @@
 @media screen and (min-width:768px) 
 and (max-width: 991px){
     #footer_site{
+        height: 100vh;
+
         .contacts{
             padding: 30px 0;
         
@@ -125,6 +128,8 @@ and (max-width: 991px){
 
 @media screen and (min-width:992px){
     #footer_site{
+        height: 100vh;
+        
         .contacts{
             padding: 30px 0;
         
