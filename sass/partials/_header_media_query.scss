@@ -10,10 +10,15 @@
                         width: 150px;
                         text-align: center;
                         padding: 7px;
-                        display: none;
-                    }
-                    i{
-                        padding: 10px;
+
+                        li{
+                            display: none;
+                        }
+                        i{
+                            padding: 5px;
+                            color: black;
+                            font-size: 20px;
+                        }
                     }
                 }
             }

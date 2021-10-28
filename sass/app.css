@@ -125,7 +125,7 @@ header .container nav {
   position: fixed;
   top: 0;
   left: 12%;
-  width: 76%;
+  width: 76vw;
   z-index: 2;
   background-color: white;
 }
@@ -307,7 +307,6 @@ header .container #header_site .jumbotron .jumbo_right .button.type3:hover:after
 }
 
 #main_site #projects .container .card {
-  width: 350px;
   padding: 8px;
   margin: 25px;
   background-color: #5353db;
@@ -325,8 +324,6 @@ header .container #header_site .jumbotron .jumbo_right .button.type3:hover:after
 
 #main_site #projects .container .card img {
   border-radius: 5px;
-  height: 200px;
-  width: 330px;
   -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
           box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
@@ -660,10 +657,14 @@ header .container #header_site .jumbotron .jumbo_right .button.type3:hover:after
     width: 150px;
     text-align: center;
     padding: 7px;
+  }
+  header .container nav ul a li {
     display: none;
   }
-  header .container nav ul i {
-    padding: 10px;
+  header .container nav ul a i {
+    padding: 5px;
+    color: black;
+    font-size: 20px;
   }
   header .container #header_site .jumbotron {
     -webkit-box-orient: vertical;
@@ -1099,6 +1100,54 @@ header .container #header_site .jumbotron .jumbo_right .button.type3:hover:after
   * #terzo_video a, * #quarto_video a {
     padding: 5px 0;
     margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 767.5px) {
+  #main_site #projects h1 {
+    font-size: 55px;
+    padding: 50px 0;
+  }
+  #main_site #projects .container .card {
+    width: 50vw;
+    padding: 8px;
+  }
+  #main_site #projects .container .card img {
+    height: 22vh;
+    width: 47vw;
+  }
+  #main_site #projects .container .card .card_desc {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #main_site #projects h1 {
+    font-size: 55px;
+    padding: 50px 0;
+  }
+  #main_site #projects .container .card {
+    width: 350px;
+    padding: 8px;
+  }
+  #main_site #projects .container .card img {
+    height: 200px;
+    width: 330px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #main_site #projects h1 {
+    font-size: 55px;
+    padding: 50px 0;
+  }
+  #main_site #projects .container .card {
+    /* width: 350px; */
+    padding: 8px;
+  }
+  #main_site #projects .container .card img {
+    height: 200px;
+    width: 330px;
   }
 }
 /*# sourceMappingURL=app.css.map */
