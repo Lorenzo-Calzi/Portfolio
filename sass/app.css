@@ -1107,7 +1107,6 @@ header .container #header_site .jumbotron .jumbo_right .button.type3:hover:after
     padding: 50px 0;
   }
   #main_site #projects .container .card {
-    width: 60vw;
     padding: 8px;
   }
   #main_site #projects .container .card img {
@@ -1140,7 +1139,7 @@ header .container #header_site .jumbotron .jumbo_right .button.type3:hover:after
     padding: 50px 0;
   }
   #main_site #projects .container .card {
-    /* width: 350px; */
+    width: 350px;
     padding: 8px;
   }
   #main_site #projects .container .card img {
