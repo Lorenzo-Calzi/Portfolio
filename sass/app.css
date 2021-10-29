@@ -664,6 +664,9 @@ header .container #header_site .jumbotron .jumbo_right .button.type3:hover:after
     color: black;
     font-size: 20px;
   }
+  header .container nav ul a i:hover {
+    color: #5353db;
+  }
   header .container #header_site .jumbotron {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -760,7 +763,7 @@ header .container #header_site .jumbotron .jumbo_right .button.type3:hover:after
 
 @media screen and (max-width: 767.5px) {
   #main_site #about_me h1 {
-    font-size: 55px;
+    font-size: 11vw;
     padding: 30px 0 10px 0;
   }
   #main_site #about_me .container {
@@ -776,14 +779,14 @@ header .container #header_site .jumbotron .jumbo_right .button.type3:hover:after
     margin-bottom: 20px;
   }
   #main_site #about_me .container .about_left p {
-    font-size: 16px;
+    font-size: 3.5vw;
     line-height: 35px;
   }
   #main_site #about_me .container .about_right {
     width: 85%;
   }
   #main_site #about_me .container .about_right i {
-    font-size: 30px;
+    font-size: 5vw;
     padding: 20px;
   }
 }
@@ -831,15 +834,15 @@ header .container #header_site .jumbotron .jumbo_right .button.type3:hover:after
     margin-bottom: 20px;
   }
   #main_site #about_me .container .about_left p {
-    font-size: 18px;
+    font-size: 17px;
     line-height: 35px;
   }
   #main_site #about_me .container .about_right {
     width: 85%;
   }
   #main_site #about_me .container .about_right i {
-    font-size: 50px;
-    padding: 25px;
+    font-size: 45px;
+    padding: 35px;
   }
 }
 
@@ -848,7 +851,7 @@ header .container #header_site .jumbotron .jumbo_right .button.type3:hover:after
     padding: 30px 0;
   }
   #footer_site .contacts h1 {
-    font-size: 55px;
+    font-size: 11vw;
     padding: 50px 0;
     margin-bottom: 50px;
   }
@@ -1028,12 +1031,17 @@ header .container #header_site .jumbotron .jumbo_right .button.type3:hover:after
   }
   * #primo_video h4, * #secondo_video h4,
   * #terzo_video h4, * #quarto_video h4 {
+    font-size: 2vw;
     margin: 10px 0 5px 0;
+  }
+  * #primo_video p, * #secondo_video p,
+  * #terzo_video p, * #quarto_video p {
+    font-size: 1.5vw;
   }
   * #primo_video a, * #secondo_video a,
   * #terzo_video a, * #quarto_video a {
     padding: 5px 0;
-    margin-top: 10px;
+    margin-top: 12px;
   }
 }
 
@@ -1062,10 +1070,14 @@ header .container #header_site .jumbotron .jumbo_right .button.type3:hover:after
   * #terzo_video h4, * #quarto_video h4 {
     margin: 10px 0 5px 0;
   }
+  * #primo_video p, * #secondo_video p,
+  * #terzo_video p, * #quarto_video p {
+    font-size: 10px;
+  }
   * #primo_video a, * #secondo_video a,
   * #terzo_video a, * #quarto_video a {
     padding: 5px 0;
-    margin-top: 10px;
+    margin-top: 13px;
   }
 }
 
@@ -1094,24 +1106,28 @@ header .container #header_site .jumbotron .jumbo_right .button.type3:hover:after
   * #terzo_video h4, * #quarto_video h4 {
     margin: 10px 0 5px 0;
   }
+  * #primo_video p, * #secondo_video p,
+  * #terzo_video p, * #quarto_video p {
+    font-size: 13px;
+  }
   * #primo_video a, * #secondo_video a,
   * #terzo_video a, * #quarto_video a {
     padding: 5px 0;
-    margin-top: 10px;
+    margin-top: 13px;
   }
 }
 
 @media screen and (max-width: 767.5px) {
   #main_site #projects h1 {
-    font-size: 55px;
+    font-size: 11vw;
     padding: 50px 0;
   }
   #main_site #projects .container .card {
     padding: 8px;
   }
   #main_site #projects .container .card img {
-    height: 18vh;
-    width: 57vw;
+    height: 22vh;
+    width: 56vw;
   }
   #main_site #projects .container .card .card_desc h5 {
     display: none;

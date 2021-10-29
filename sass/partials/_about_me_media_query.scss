@@ -2,7 +2,7 @@
     #main_site{
         #about_me{ 
             h1{
-                font-size: 55px;
+                font-size: 11vw;
                 padding: 30px 0 10px 0;
             }
             .container{
@@ -15,7 +15,7 @@
                     margin-bottom: 20px;
         
                     p{
-                        font-size: 16px;
+                        font-size: 3.5vw;
                         line-height: 35px;
                     }
                 }
@@ -23,7 +23,7 @@
                     width: 85%;
         
                     i{
-                        font-size: 30px;
+                        font-size: 5vw;
                         padding: 20px;
                     }
                 }
@@ -84,7 +84,7 @@ and (max-width: 991px){
                     margin-bottom: 20px;
         
                     p{
-                        font-size: 18px;
+                        font-size: 17px;
                         line-height: 35px;
                     }
                 }
@@ -92,8 +92,8 @@ and (max-width: 991px){
                     width: 85%;
         
                     i{
-                        font-size: 50px;
-                        padding: 25px;
+                        font-size: 45px;
+                        padding: 35px;
                     }
                 }
             }
