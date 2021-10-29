@@ -1,0 +1,1 @@
+Questi due file non vengono utilizzati poiché dovendo pubblicare il sito tramite GitHub Sites ho dovuto evitare le API piuttosto che i Database, ma dato che il progetto l'avevo inzialmente pensato in questo modo ho deciso comunque di lasciare questi file.
