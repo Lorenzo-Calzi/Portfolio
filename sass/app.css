@@ -309,11 +309,12 @@ header .container #header_site .jumbotron .jumbo_right .button.type3:hover:after
 #main_site #projects .container .card {
   padding: 8px;
   margin: 25px;
-  background-color: #5353db;
+  background-color: #66a4fc;
   border-radius: 10px;
   text-align: center;
-  -webkit-box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
-          box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+  -webkit-box-shadow: rgba(150, 182, 219, 0.452) 0px 0px 0px 3px;
+          box-shadow: rgba(150, 182, 219, 0.452) 0px 0px 0px 3px;
+  /* box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px; */
   z-index: 1;
 }
 
@@ -445,11 +446,12 @@ header .container #header_site .jumbotron .jumbo_right .button.type3:hover:after
 #main_site #otherProjects .container .card {
   padding: 8px;
   margin: 25px;
-  background-color: #5353db;
+  background-color: #66a4fc;
   border-radius: 10px;
   text-align: center;
-  -webkit-box-shadow: rgba(1, 160, 62, 0.4) -5px 5px, rgba(9, 143, 76, 0.3) -10px 10px, rgba(15, 165, 132, 0.2) -15px 15px, rgba(12, 119, 60, 0.1) -20px 20px, rgba(13, 126, 82, 0.05) -25px 25px;
-          box-shadow: rgba(1, 160, 62, 0.4) -5px 5px, rgba(9, 143, 76, 0.3) -10px 10px, rgba(15, 165, 132, 0.2) -15px 15px, rgba(12, 119, 60, 0.1) -20px 20px, rgba(13, 126, 82, 0.05) -25px 25px;
+  -webkit-box-shadow: rgba(150, 182, 219, 0.452) 0px 0px 0px 3px;
+          box-shadow: rgba(150, 182, 219, 0.452) 0px 0px 0px 3px;
+  /* box-shadow: rgba(1, 160, 62, 0.4) -5px 5px, rgba(9, 143, 76, 0.3) -10px 10px, rgba(15, 165, 132, 0.2) -15px 15px, rgba(12, 119, 60, 0.1) -20px 20px, rgba(13, 126, 82, 0.05) -25px 25px; */
   cursor: pointer;
 }
 
@@ -1126,8 +1128,8 @@ header .container #header_site .jumbotron .jumbo_right .button.type3:hover:after
     padding: 8px;
   }
   #main_site #projects .container .card img {
-    height: 22vh;
-    width: 56vw;
+    height: 25vh;
+    width: 43vw;
   }
   #main_site #projects .container .card .card_desc h5 {
     display: none;

@@ -21,10 +21,11 @@
             .card{
                 padding: 8px;
                 margin: 25px;
-                background-color: rgb(83, 83, 219);
+                background-color: rgb(102, 164, 252);
                 border-radius: 10px;
                 text-align: center;
-                box-shadow: rgba(1, 160, 62, 0.4) -5px 5px, rgba(9, 143, 76, 0.3) -10px 10px, rgba(15, 165, 132, 0.2) -15px 15px, rgba(12, 119, 60, 0.1) -20px 20px, rgba(13, 126, 82, 0.05) -25px 25px;
+                box-shadow: rgba(150, 182, 219, 0.452) 0px 0px 0px 3px;
+                /* box-shadow: rgba(1, 160, 62, 0.4) -5px 5px, rgba(9, 143, 76, 0.3) -10px 10px, rgba(15, 165, 132, 0.2) -15px 15px, rgba(12, 119, 60, 0.1) -20px 20px, rgba(13, 126, 82, 0.05) -25px 25px; */
                 cursor: pointer;
     
                 img{
